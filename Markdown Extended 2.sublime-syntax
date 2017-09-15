@@ -541,7 +541,7 @@ contexts:
         2: variable.language.fenced.markdown
         3: punctuation.definition.fenced.markdown
       push:
-        - meta_scope: markup.raw.block.markdown markup.raw.block.fenced.markdown
+        - meta_scope: markup.raw.block.markdown markup.raw.block.fenced.r.markdown
         - meta_content_scope: source.r
         - match: '(```|~~~|{%\s*endhighlight\s*%})\n'
           captures:

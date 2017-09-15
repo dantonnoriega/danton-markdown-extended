@@ -1502,9 +1502,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markdown: Raw Block Frenced</string>
+        <string>Markdown: Raw Block</string>
         <key>scope</key>
-        <string>markup.raw.block.fenced.markdown</string>
+        <string>markup.raw.block.markdown</string>
         <key>settings</key>
         <dict>
           <key>background</key>
@@ -1515,9 +1515,22 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markdown: Raw Code Fence 2</string>
+        <string>Markdown: Raw Block Frenced</string>
         <key>scope</key>
-        <string>markup.raw.code-fence.markdown</string>
+        <string>markup.raw.block.fenced.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#1e1e1e</string>
+          <key>foreground</key>
+          <string>#c5e2ec</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown: Raw Code Fence R Source</string>
+        <key>scope</key>
+        <string>markup.raw.block.fenced.r.markdown</string>
         <key>settings</key>
         <dict>
           <key>background</key>
